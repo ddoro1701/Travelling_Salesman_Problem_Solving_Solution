@@ -1,0 +1,5 @@
+This project implements a complete route-optimization system designed around a graph of 26 postal regions. It solves complex routing scenarios by applying several classical graph algorithms, Dijkstra’s Algorithm, Prim’s Algorithm, Minimum Weight Perfect Matching, and Hamiltonian circuit construction. The system automatically generates optimized routes, visualizes graph structures, and supports dynamic user-defined inputs.
+
+The application reads an adjacency matrix from a JSON file, computes the shortest routes between multiple start, end, pickup, and drop-off points, and constructs an efficient circular route that visits every location exactly once. The project includes a full Java implementation with custom data structures, a graphical visualization using Swing, and a modular codebase that separates matrix handling, route optimization, MST generation, and graph rendering.
+
+Designed as part of a university assignment, the project demonstrates algorithmic problem-solving, Java development, and practical application of optimization techniques. 
